@@ -1,5 +1,5 @@
 {
-  "name": "ontrack",
+  "name": "habits",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "react-native": "0.70.5",
     "react-native-chart-kit": "^6.12.0",
     "react-native-paper": "^4.12.5",
-    "react-native-svg": "^13.6.0"
+    "react-native-svg": "13.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
