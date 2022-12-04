@@ -19,21 +19,21 @@ const AppLineChart = () => {
         },
       ],
     }}
-    width={Dimensions.get('window').width - 16}
+    width={Dimensions.get('window').width - 32}
     height={220}
     chartConfig={{
       backgroundColor: '#1cc910',
       backgroundGradientFrom: '#eff3ff',
       backgroundGradientTo: '#efefef',
-      decimalPlaces: 2,
+      decimalPlaces: 0,
       color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
       style: {
-        borderRadius: 16,
+        borderRadius: 0,
       },
     }}
     style={{
       marginVertical: 8,
-      borderRadius: 16,
+      borderRadius: 0,
     }}
   />
 }
